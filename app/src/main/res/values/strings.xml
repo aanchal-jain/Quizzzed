@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quizzzed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_to_play"><b>Quizzzed</b> is a simple multiplayer Quiz Game.
+    <br>The player who wants to start the game can generate a fun secret code by clicking on the <b><i>Start a Game</i></b> button.
+    All one has to do is to tell that code to the fellow players.</br>
+    Others who want to join the game have to select the <b><i>Join a Game</i></b> button and enter the code told to them.<br></br>
+    When the Joined Players list starts showing other Players, the Game Master can select the <b>Match Length</b> from the three available options:<br></br>
+        <ul><b><i><li>10 Questions: 90 Seconds</li>
+            <li>20 Questions: 3 Minutes</li>
+            <li>30 Questions: 5 Minutes</li>
+        </i></b></ul><br></br>
+    Once everyone has joined, the Game Master can click onto the Start Game button and the Quiz starts.<br></br>
+    Each Correct Answer earns you 5 coins.
+    </string>
+</resources>

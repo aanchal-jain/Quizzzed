@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="trans_black">#BE0D0C0C</color>
+    <color name="white">#ffffff</color>
+    <color name="trans_orange">#A3DF7A14</color>
+    <color name="orange">#f99737</color>
+    <color name="black">#000000</color>
+    <color name="trans_red">#9CFF0000</color>
+    <color name="trans_grey">#484A4A4B</color>
+    <color name="blue">#1176C2</color>
+    <color name="trans_blue">#BE043283</color>
+    <color name="trans_green">#8D00FF02</color>
+</resources>

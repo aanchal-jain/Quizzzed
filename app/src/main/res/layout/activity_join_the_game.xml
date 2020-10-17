@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinTheGameActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/faded_bg"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join A Game"
+        android:textSize="40dp"
+        android:fontFamily="@font/cipthayasa"
+        android:layout_marginTop="10dp"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:textAlignment="center"/>
+   <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Enter the Code Shared by Your Game Leader"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textSize="18dp"
+        android:fontFamily="@font/htower_italic"
+       style="@style/Base.AlertDialog.AppCompat.Light"
+        android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:digits="qwertyuiopasdfghjklzxcvbnm"
+            android:fontFamily="@font/rm_typerighter_medium"
+            android:hint="#### ####"
+            android:layout_gravity="center"
+            android:maxLength="9"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="50sp"
+            android:id="@+id/join_game_code"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:background="@color/trans_black"
+            android:layout_margin="5dp"
+            android:paddingHorizontal="20dp"
+            android:enabled="false"
+            android:textAllCaps="false"
+            android:fontFamily="@font/htower"
+            android:textSize="20sp"
+            android:id="@+id/submit_code"
+            />
+        <!-- Invisible before Submit is pressed-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:text="People Who've Joined"
+        android:textSize="30sp"
+        style="@style/Base.AlertDialog.AppCompat.Light"
+        android:fontFamily="@font/htower"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        android:id="@+id/txt_joined_ppl"/>
+
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_margin="15dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:visibility="invisible"
+        android:id="@+id/list_joined_players">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/join_players">
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Game starts Soon..."
+        android:fontFamily="@font/cipthayasa"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:id="@+id/txt_game_starts_soon"/>
+    </LinearLayout>
+</ScrollView>

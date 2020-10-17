@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WaitingActivity"
+    android:background="@drawable/faded_bg">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Waiting for Others to Complete..."
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cipthayasa"
+        android:layout_marginTop="60dp"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:textAlignment="center"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/load2"
+        android:layout_marginTop="50dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:src="@drawable/title"
+        android:layout_gravity="end"
+        android:layout_marginTop="260dp"/>
+
+</LinearLayout>

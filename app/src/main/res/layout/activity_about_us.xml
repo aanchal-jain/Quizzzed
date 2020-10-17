@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/faded_bg"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="40dp"
+        android:fontFamily="@font/cipthayasa"
+        android:layout_marginTop="10dp"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/rm_typerighter_medium"
+        android:text="This app has been developed &amp; created by Aanchal Jain.
+        \n\n\n
+ ©2019 "
+        android:textSize="45sp"/>
+</LinearLayout>
